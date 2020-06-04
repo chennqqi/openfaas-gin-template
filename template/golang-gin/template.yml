@@ -1,0 +1,6 @@
+language: golang-middleware
+fprocess: ./handler
+build_options:
+  - name: timezone
+    packages:
+      - tzdata
